@@ -1,40 +1,40 @@
 # ToDoMVC-automation Repository
 
 ======================================================================
-Product Name	 : ToDoMVC-automation
-Release Version	 : 1.0
-Release Date	 : 10 October 2021
+Product Name	 : ToDoMVC-automation <br />
+Release Version	 : 1.0 <br />
+Release Date	 : 10 October 2021 <br />
 
 ======================================================================
 # Supported Platforms
 
-   Apple Mac OS X
-      10.14.x 64-bit on x86-64
-   Microsoft Windows
-      10 64-bit on x86-64
-   Red Hat Enterprise Linux Server
-      7.0 64-bit on x86-64
+   Apple Mac OS X <br />
+      10.14.x 64-bit on x86-64 <br />
+   Microsoft Windows <br />
+      10 64-bit on x86-64 <br />
+   Red Hat Enterprise Linux Server <br />
+      7.0 64-bit on x86-64 <br />
 
 ======================================================================
 #  Minimum Software Requirements
 
-   Oracle Corporation:
-     JAVA 15.0.1
-   Apache Org:
-     Maven 3.6.3
+   Oracle Corporation: <br />
+     JAVA 15.0.1 <br />
+   Apache Org: <br />
+     Maven 3.6.3 <br />
 
 ======================================================================
 #  Optional Software Requirements for running in docker
 
-   Docker Corporation
-     Docker 19.03.8
-   Real VNC Corporation
-     VNC Viewer 6.21.406
+   Docker Corporation <br />
+     Docker 19.03.8 <br />
+   Real VNC Corporation <br />
+     VNC Viewer 6.21.406 <br />
 
 ======================================================================
 # Steps To Run
 
-You can run the automation test in the following ways:
+You can run the automation test in the following ways:<br />
 
  # A. Running with mvn
   
