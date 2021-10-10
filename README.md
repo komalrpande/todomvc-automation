@@ -38,23 +38,23 @@ You can run the automation test in the following ways:
 
  # A. Running with mvn
   
-  Step 1.Clone this repository inyour local machine.
-  Step 2.Go to root directory of the project "todomvc-automation"
-  Step 3.Run CMD / Shell / Terminal on this path todomvc-automation/
-  Step 4.Run the command - mvn clean test
-  Step 5.Automation test will run in terminal assuming software requirements are met
-  Step 6.Report will be published at todomvc-automation\target\cucumber-reports\report.html
+  Step 1.Clone this repository inyour local machine <br />
+  Step 2.Go to root directory of the project "todomvc-automation" <br />
+  Step 3.Run CMD / Shell / Terminal on this path todomvc-automation/ <br />
+  Step 4.Run the command - mvn clean test <br />
+  Step 5.Automation test will run in terminal assuming software requirements are met <br />
+  Step 6.Report will be published at todomvc-automation\target\cucumber-reports\report.html <br />
   
  # B. Running with Docker
 
-  Step 1.docker pull selenium/standalone-chrome-debug:3.141.59
-  Step 2.docker pull komalpande/todomvc-automation:latest
-  Step 3.Step docker run -d -p 4444:4444 -p 5900:5900 --shm-size="2g" selenium/standalone-chrome-debug:3.141.59
-  Step 4.docker run -d --network="host" komalpande/todomvc-automation:latest mvn -f /home/todomvc-automation/pom.xml clean test -Dbrowser="chrome"
-  Step 5.Open VNC viewer and connect to localhost:5900 to see remote execuion in docker
-  Step 6.Docker logs <<container_name_for_komalpande/todomvc-automation>> to view logs
+  Step 1.docker pull selenium/standalone-chrome-debug:3.141.59 <br />
+  Step 2.docker pull komalpande/todomvc-automation:latest <br />
+  Step 3.Step docker run -d -p 4444:4444 -p 5900:5900 --shm-size="2g" selenium/standalone-chrome-debug:3.141.59 <br />
+  Step 4.docker run -d --network="host" komalpande/todomvc-automation:latest mvn -f /home/todomvc-automation/pom.xml clean test -Dbrowser="chrome" <br />
+  Step 5.Open VNC viewer and connect to localhost:5900 to see remote execuion in docker <br />
+  Step 6.Docker logs <<container_name_for_komalpande/todomvc-automation>> to view logs <br />
 
 
-======================================================================
+======================================================================<br />
 This code is created and maintained by Komal Pande Dated 10 Oct 2021.
 
