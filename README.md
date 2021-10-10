@@ -36,23 +36,23 @@ Release Date	 : 10 October 2021
 
 You can run the automation test in the following ways:
 
-  A. Running with mvn
+ # A. Running with mvn
   
-  1.Clone this repository inyour local machine.
-  2.Go to root directory of the project "todomvc-automation"
-  3.Run CMD / Shell / Terminal on this path todomvc-automation/
-  4.Run the command - mvn clean test
-  5.Automation test will run in terminal assuming software requirements are met
-  6.Report will be published at todomvc-automation\target\cucumber-reports\report.html
+  Step 1.Clone this repository inyour local machine.
+  Step 2.Go to root directory of the project "todomvc-automation"
+  Step 3.Run CMD / Shell / Terminal on this path todomvc-automation/
+  Step 4.Run the command - mvn clean test
+  Step 5.Automation test will run in terminal assuming software requirements are met
+  Step 6.Report will be published at todomvc-automation\target\cucumber-reports\report.html
+  
+ # B. Running with Docker
 
-  B. Running with Docker
-
-  1.docker pull selenium/standalone-chrome-debug:3.141.59
-  2.docker pull komalpande/todomvc-automation:latest
-  3.docker run -d -p 4444:4444 -p 5900:5900 --shm-size="2g" selenium/standalone-chrome-debug:3.141.59
-  4.docker run -d --network="host" komalpande/todomvc-automation:latest mvn -f /home/todomvc-automation/pom.xml clean test -Dbrowser="chrome"
-  5.Open VNC viewer and connect to localhost:5900 to see remote execuion in docker
-  6.Docker logs <<container_name_for_komalpande/todomvc-automation>> to view logs
+  Step 1.docker pull selenium/standalone-chrome-debug:3.141.59
+  Step 2.docker pull komalpande/todomvc-automation:latest
+  Step 3.Step docker run -d -p 4444:4444 -p 5900:5900 --shm-size="2g" selenium/standalone-chrome-debug:3.141.59
+  Step 4.docker run -d --network="host" komalpande/todomvc-automation:latest mvn -f /home/todomvc-automation/pom.xml clean test -Dbrowser="chrome"
+  Step 5.Open VNC viewer and connect to localhost:5900 to see remote execuion in docker
+  Step 6.Docker logs <<container_name_for_komalpande/todomvc-automation>> to view logs
 
 
 ======================================================================
