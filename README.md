@@ -49,10 +49,11 @@ You can run the automation test in the following ways:<br />
 
   Step 1.docker pull selenium/standalone-chrome-debug:3.141.59 <br />
   Step 2.docker pull komalpande/todomvc-automation:latest <br />
-  Step 3.Step docker run -d -p 4444:4444 -p 5900:5900 --shm-size="2g" selenium/standalone-chrome-debug:3.141.59 <br />
+  Step 3.docker run -d -p 4444:4444 -p 5900:5900 --shm-size="2g" selenium/standalone-chrome-debug:3.141.59 <br />
   Step 4.docker run -d --network="host" komalpande/todomvc-automation:latest mvn -f /home/todomvc-automation/pom.xml clean test -Dbrowser="chrome" <br />
-  Step 5.Open VNC viewer and connect to localhost:5900 to see remote execuion in docker <br />
+  Step 5.Open VNC viewer and connect to localhost:5900 to see remote execuion in docker , open URL localhost:5900 enter default user and pass "secret" <br />
   Step 6.Docker logs <<container_name_for_komalpande/todomvc-automation>> to view logs <br />
+  Step 7.View test execution logs at https://reports.cucumber.io/reports/<<report_id_from_docker_logs>> <br />
 
 
 ======================================================================<br />
