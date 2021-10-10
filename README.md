@@ -2,7 +2,7 @@
 
 ======================================================================
 Product Name	 : ToDoMVC-automation <br />
-Release Version	 : 1.0 <br />
+Release Version : 1.0 <br />
 Release Date	 : 10 October 2021 <br />
 
 ======================================================================
@@ -22,6 +22,8 @@ Release Date	 : 10 October 2021 <br />
      JAVA 15.0.1 <br />
    Apache Org: <br />
      Maven 3.6.3 <br />
+   Google Corporation <br />
+     Google Chrome latest v 93 onwards  <br />
 
 ======================================================================
 #  Optional Software Requirements for running in docker
@@ -34,7 +36,7 @@ Release Date	 : 10 October 2021 <br />
 ======================================================================
 # Steps To Run
 
-You can run the automation test in the following ways:<br />
+You can run the automation test in the following ways: <br />
 
  # A. Running with mvn
   
